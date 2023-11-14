@@ -1,6 +1,13 @@
 import numpy as np
 import copy
 
+import os
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+import unittest
+
 from mjlegal.mjai_possible_action import MjaiPossibleActionGenerator
 from mjlegal.mjai_player_loader import MjaiPlayerLoader
 from bert import BertClassification

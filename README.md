@@ -7,10 +7,28 @@
 
 # usage
 
+## ./bot
+
+とりあえず動くように
+
+```
+wahaha on  feat/poetry2 is 📦 v0.1.0 via 🐍 v3.11.5 (wahaha-py3.11) on ☁️
+❯ python bot/client.py
+
+
+wahaha on  feat/poetry2 [!] is 📦 v0.1.0 via 🐍 v3.11.5 (wahaha-py3.11) on ☁️
+❯ python bot/mjai.py
+usage: mjai.py [-h] [--host HOST] [--room ROOM] [--port PORT] [--name NAME] model_path
+mjai.py: error: the following arguments are required: model_path
+
+```
+
+## test
+
 test についてはこのようにすれば ok
 
 ```
-wahaha on  feat/poetry2 is 📦 v0.1.0 via 🐍 v3.11.5 (wahaha-py3.11) on ☁️  r.oonuma@matsuri-tech.com
+wahaha on  feat/poetry2 is 📦 v0.1.0 via 🐍 v3.11.5 (wahaha-py3.11) on ☁️
 ❯ python -m unittest test/test_mj2vec.py
 
 .
